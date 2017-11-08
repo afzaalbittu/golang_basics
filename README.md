@@ -2,8 +2,8 @@
 
 ## Basic Loops Programs
 1. For .....
-1. More For loop options 
+2. More For loop options 
 
 ## Basic Networking Programs
 1. HTTP GET Calls with APIKEY
-1. HTTP POST Calls 
+2. HTTP POST Calls 
