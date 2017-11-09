@@ -32,7 +32,7 @@ func downloadmp3(urlref string){
 	   filename:= ParsedUrlRef.Path
 	   filename = strings.Replace(filename,"/","_",-1)
 	   filename = strings.TrimLeft(filename,"_")
-	   filename = "/Users/Naseer/Downloads/"+filename +".mp3"
+	   filename = "path"+filename +".mp3"
        filehandle,error:= os.OpenFile(filename,os.O_CREATE|os.O_WRONLY, 0600)
        if error!= nil{
        	fmt.Println("error")
@@ -45,6 +45,6 @@ func downloadmp3(urlref string){
 
 }
 func main(){
-	downloadmp3("https://golang.org/pkg/go/parser/#example_ParseFile")
+	downloadmp3("url")
 }
 
